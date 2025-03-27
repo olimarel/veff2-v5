@@ -1,5 +1,4 @@
 // app/page.tsx
-import Link from 'next/link';
 import { client, HOMEPAGE_QUERY } from '@/lib/datocms';
 import { HomepageResponse } from '@/lib/types';
 

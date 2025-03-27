@@ -1,4 +1,5 @@
 // app/layout.tsx
+import Link from 'next/link';
 import './globals.scss';
 
 export default function RootLayout({
@@ -15,7 +16,7 @@ export default function RootLayout({
         <header>
           <h1>Verkefni 5</h1>
           <nav>
-            <a href="/">Home</a> | <a href="/news">Articles</a>
+            <Link href="/">Home</Link> | <Link href="/news">Articles</Link>
           </nav>
         </header>
         <main>{children}</main>
