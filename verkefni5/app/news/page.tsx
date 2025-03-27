@@ -1,4 +1,3 @@
-// app/news/page.tsx
 import Link from 'next/link';
 import { GraphQLClient, gql } from 'graphql-request';
 import { JSX } from 'react';
@@ -14,7 +13,7 @@ export default async function NewsListPage(): Promise<JSX.Element> {
     {
       allArticles {
         slug
-        articletitle
+        title: articletitle
       }
     }
   `;

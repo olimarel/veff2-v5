@@ -12,6 +12,10 @@ export interface HomepageResponse {
   export interface Article {
     title: string;
     content: string;
+    image: {
+      url: string;
+      alt?: string;
+    };
   }
   
   export interface ArticleResponse {

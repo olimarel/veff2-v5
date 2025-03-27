@@ -11,9 +11,6 @@ export default async function HomePage() {
     <main>
       <h1>{homepage.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: homepage.content }} />
-      <nav>
-        <Link href="/news">View All Articles</Link>
-      </nav>
     </main>
   );
 }
