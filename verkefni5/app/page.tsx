@@ -1,4 +1,3 @@
-// app/page.tsx
 import { client, HOMEPAGE_QUERY } from '@/lib/datocms';
 import { HomepageResponse } from '@/lib/types';
 

@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { GraphQLClient, gql } from 'graphql-request';
-import { JSX } from 'react';
 
 const client = new GraphQLClient('https://graphql.datocms.com/', {
   headers: {
@@ -8,7 +7,7 @@ const client = new GraphQLClient('https://graphql.datocms.com/', {
   },
 });
 
-export default async function NewsListPage(): Promise<JSX.Element> {
+export default async function NewsListPage() {
   const query = gql`
     {
       allArticles {

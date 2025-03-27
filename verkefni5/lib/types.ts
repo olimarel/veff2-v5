@@ -1,6 +1,3 @@
-// lib/types.ts
-
-// Homepage data type
 export interface HomepageResponse {
     homepage: {
       title: string;
@@ -8,7 +5,6 @@ export interface HomepageResponse {
     };
   }
   
-  // Article data types
   export interface Article {
     title: string;
     content: string;
